@@ -1,4 +1,4 @@
-# The Flying Teapot Project
+# The Flying Teacup Project
 
 * WIP!
 * Using three.js to build a 3D web environment, and incorporating meshes built in Blender.
