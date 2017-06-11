@@ -3,7 +3,7 @@
 <html>
 
   <head>
-    <title>treehouse tutorial</title>
+    <title>the flying teacup</title>
   </head>
 
   <body>
@@ -40,15 +40,13 @@
           camera.updateProjectionMatrix();
         });
 
-        // renderer.setClearColorHex(0x333F47, 1);
-
         var light = new THREE.PointLight(0xffffff);
         light.position.set(-100,200,100);
         scene.add(light);
 
 
         var loader = new THREE.JSONLoader();
-        loader.load( "models/teacup.json", function(geometry){
+        loader.load( "models/teacup.js", function(geometry){
           var material = new THREE.MeshLambertMaterial({color: 0x55B663});
           mesh = new THREE.Mesh(geometry, material);
           scene.add(mesh);
