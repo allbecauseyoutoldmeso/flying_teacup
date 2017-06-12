@@ -1,7 +1,7 @@
 # The Flying Teacup Project
 
 * WIP!
-* Using three.js to build an interactive 3D web environment, and incorporating meshes built in Blender.
+* Using Three.js to build an interactive 3D web environment, and incorporating meshes built in Blender.
 * You can play with it <a href='https://allbecauseyoutoldmeso.github.io/flying_teacup'>here</a>.
 * Scroll to zoom in and out, click and drag to spin the teacup around, or use the arrow keys to pan across the screen.
 
